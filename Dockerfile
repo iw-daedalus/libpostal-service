@@ -14,4 +14,4 @@ USER pelias
 
 # set entrypoint to executable, ensuring the host is set so network requests will work
 # additional parameters can be passed on the command line
-ENTRYPOINT [ "./bin/wof-libpostal-server", "-host", "0.0.0.0", "-port", "4400" ]
+ENTRYPOINT [ "./bin/wof-libpostal-server", "-host", "0.0.0.0", "-port", "80" ]
